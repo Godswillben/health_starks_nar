@@ -1,11 +1,17 @@
-import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import LandingContent from './pages/LandingContent'
+import LandingEmotional from './pages/LandingEmotional'
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      p
-    </>
+    <BrowserRouter >
+      <Routes>
+        <Route path='/demo' element={<LandingContent />} />
+        <Route path='/' element={<LandingEmotional />} />
+        <Route path={"*"} element={<LandingEmotional />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
