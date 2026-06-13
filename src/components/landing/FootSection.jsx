@@ -5,14 +5,14 @@ const FootSection = () => {
    return (
       <div className="mt-38">
          <div className="w-11/12 mx-auto">
-            <h3 className="text-center text-3xl text-blue800 font-Kurale leading-14">
+            <h3 className="text-center text-3xl sm:text-4xl lg:text-5xl text-blue800 font-Kurale leading-14 lg:leading-20">
                Stop searching in the dark. Get the collective wisdom of
                thousands of patients and pros.
             </h3>
             <div className="mt-18 mb-30">
                <CallToAction
                   text="Ask Your First Question Now (It's Free)"
-                  cls="w-full"
+                  cls="w-full sm:w-fit sm:mx-auto"
                />
             </div>
          </div>
