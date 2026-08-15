@@ -1,7 +1,7 @@
 import React from 'react';
 import profile from "../../assets/landing/profile.jpg";
 
-const LandingBannerCard = ({cls="right-4 top-[62%]", body}) => {
+const LandingBannerCard = ({cls="right-4 top-90 sm:top-28 md:right-12 lg:right-52", body}) => {
     return (
     
              <div className={`absolute z-10 w-60  bg-[#E5FCFB] p-2 rounded-lg ${cls}`}>

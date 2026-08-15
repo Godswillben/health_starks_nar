@@ -14,7 +14,7 @@ const NavLink = ({cls, text="Menu", icon}) => {
 
          {/* The menu div placed on top */}
          <div className="absolute w-full inset-0 space-x-2 flex items-end mb-[.8rem] border-b border-cyan500 justify-between">
-            <img className="size-7" src={menu} alt="" />
+            <img className="size-7" src={icon ? icon : menu} alt="" />
             <p className="font-Pop font-medium tracking-[2px] text-nowrap leading-4 lg:text-lg">
                {text}
             </p>

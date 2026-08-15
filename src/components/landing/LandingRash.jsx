@@ -1,7 +1,7 @@
 import React from 'react';
 import rash from "../../assets/landing/rash.svg";
 
-const LandingRash = ({img, cls="w-110  top-0 -left-4 rotate-5  "}) => {
+const LandingRash = ({img, cls="w-[110%] sm:w-[90%] lg:-top-4  top-0 -left-4 rotate-5  "}) => {
     return (
             <div className="absolute z-10 inset-0 w-full pointer-events-none ">
                <img

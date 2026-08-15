@@ -7,10 +7,10 @@ import leg from "../../assets/landing/section4/leg.jpg";
 
 const ProductActivity = () => {
    return (
-      <div className="flex flex-col space-y-18 mt-18">
-         <div className="relative w-full overflow-hidden mt-10">
-            <LandingHandImg cls="mt-79" />
-            <LandingRash cls="w-110  top-12 -left-4 rotate-5 " />
+      <div className="flex flex-col xl:flex-row xl:items-center space-y-18 mt-18 sm:mt-32">
+         <div className="relative w-full xl:w-6/10 overflow-hidden mt-10">
+            <LandingHandImg cls="mt-79 sm:mt-52 md:mt-42" />
+            <LandingRash cls="w-110 sm:w-[80%] top-12 -left-4 rotate-5 " />
             <div className="absolute z-30 top-[8%] w-11/12 left-1/2 -translate-x-1/2 max-w-md">
                <h4 className="mb-14 text-brown700 text-2xl text-center font-Kurale">
                   100,000+ Questions Answered. Find Yours.
@@ -22,7 +22,7 @@ const ProductActivity = () => {
                </div>
             </div>
          </div>
-         <SectionImg img={leg} height="20" />
+         <SectionImg img={leg} height="20 xl:h-100" />
       </div>
    );
 };
